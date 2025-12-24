@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Graph API Viewer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="fb-app-wrapper">
+        <header class="fb-header">
+            <h1 class="fb-title">Facebook Graph API</h1>
+        </header>
+        <main class="fb-main">
+            <section class="fb-controls-section">
+                <div class="fb-field-group">
+                    <label for="fb-access-token" class="fb-label">Access Token</label>
+                    <input type="text" id="fb-access-token" class="fb-input" placeholder="Enter your Facebook access token">
+                </div>
+                <button id="fb-fetch-button" class="fb-button">
+                    <span class="fb-button-icon bi bi-person-circle"></span>
+                    <span class="fb-button-text">Get My Profile</span>
+                    <span class="fb-button-spinner"></span>
+                </button>
+                <div id="fb-error-container" class="fb-error-container" aria-live="polite"></div>
+                <div id="fb-loading-message" class="fb-loading-message">
+                    <span class="fb-loading-icon"></span>
+                    <span class="fb-loading-text">Loading data...</span>
+                </div>
+            </section>
+            <section class="fb-results-section">
+                <div id="fb-results-container" class="fb-results-container"></div>
+            </section>
+        </main>
+    </div>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
