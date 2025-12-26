@@ -64,5 +64,6 @@ Notes
 •	Ensure your Facebook access token has the necessary permissions to read page posts.
 
 •	Handle API keys and access tokens securely.
+
 •	Check API rate limits to avoid errors during fetching.
 
