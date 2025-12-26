@@ -17,13 +17,13 @@ Features
 
 Role Assignment 
 
-•	Kasandra Joy Cruz – JavaScript Logic / Data Processing
+•	Kasandra Joy Cruz – JavaScript Logic / Data Processing / UI & CSS Designer
 
-•	Tiffany Angel Caoile – API & Authentication Handler
+•	Jessielyn Llomo – JavaScript Logic / Data Processing / API & Authentication Handler
+
+•	Tiffany Angel Caoile – GitHub & Documentation Manager
 
 •	Pia Joy Tenepere – UI & CSS Designer
-
-•	Jessielyn Llomo – GitHub & Documentation Manager
 
 
 Project Structure
