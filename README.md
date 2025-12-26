@@ -1,8 +1,8 @@
-Facebook Graph API Viewer
+# Facebook Graph API Viewer
 
 This project is a web application that allows users to fetch and view posts from a Facebook page using the Facebook Graph API. It demonstrates API integration, JavaScript logic, and responsive UI design.
 
-Features
+# Features
 
 •	Fetch posts from a specific Facebook page using an access token.
 
@@ -15,7 +15,7 @@ Features
 •	Responsive design suitable for both desktop and mobile screens.
 
 
-Role Assignment 
+# Role Assignment 
 
 •	Kasandra Joy Cruz – JavaScript Logic / Data Processing / UI & CSS Designer
 
@@ -26,7 +26,7 @@ Role Assignment
 •	Pia Joy Tenepere – UI & CSS Designer
 
 
-Project Structure
+# Project Structure
 
 facebook-graph/
 
@@ -41,7 +41,7 @@ facebook-graph/
 └─ config.js           # Stores Facebook API access token
 
 
-Instructions to Run
+# Instructions to Run
 
 1.	Open index.html inside the facebook-graph folder.
 
@@ -51,7 +51,7 @@ Instructions to Run
 
 No server setup is required; the project runs entirely in the browser.
 
-Technologies Used
+# Technologies Used
 
 •	HTML5, CSS3, JavaScript (ES6)
 
@@ -59,7 +59,7 @@ Technologies Used
 
 •	Bootstrap Icons for UI elements
 
-Notes
+# Notes
 
 •	Ensure your Facebook access token has the necessary permissions to read page posts.
 
